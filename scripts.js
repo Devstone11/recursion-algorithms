@@ -32,3 +32,8 @@ function bottlesOfBeer(bottlesRemaining) {
 function isPalindrome(testString) {
 
 }
+
+module.exports = {
+    fibonacci: fibonacci,
+    isPalindrome: isPalindrome
+}
