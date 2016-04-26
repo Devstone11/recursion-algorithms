@@ -29,7 +29,7 @@ describe("isPalindrome", function() {
         
         for(var i = 0; i < testCases.length; i++) {
             var word = testCases[i];
-            expect(isPalindrome(word)).to.equal(true);
+            expect(isPalindrome(word)).to.equal(false);
         }
     });
 });
