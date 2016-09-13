@@ -18,10 +18,10 @@ function fibonacci(n) {
 }
 
 /**
- * When called this function should print the song "bottles of beer"
- * for as many bottles as there are 'bottlesRemaining'
+ * When called this function should print the song add to the song lyrics on each iteration.
+   When zero is reached it should add "No more bottles of beer on the wall. No more bottles of beer!"
  */
-function bottlesOfBeer(bottlesRemaining) {
+function bottlesOfBeer(bottlesRemaining = 0, songLyrics = "") {
 
 }
 
@@ -35,5 +35,6 @@ function isPalindrome(testString) {
 
 module.exports = {
     fibonacci: fibonacci,
+    bottlesOfBeer: bottlesOfBeer,
     isPalindrome: isPalindrome
 }
