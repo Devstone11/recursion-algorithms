@@ -26,7 +26,7 @@ describe("isPalindrome", function() {
             '1122',
             'whats up g?'
         ];
-        
+
         for(var i = 0; i < testCases.length; i++) {
             var word = testCases[i];
             expect(isPalindrome(word)).to.equal(false);
